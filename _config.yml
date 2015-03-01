@@ -1,0 +1,20 @@
+# Site settings
+url: http://savchook.com
+default_lang: uk
+title: Видавець Савчук О. О.
+menu:
+  about-publishers: Про видавництво
+  how-to-publish: Як видати книгу?
+  books: Книгарня
+  buy-book: Як придбати?
+  contacts: Контакти
+collections:
+  news:
+    output: false
+  books:
+    output: true
+
+# Build settings
+exclude: [Gemfile, Gemfile.lock]
+sass:
+  style: :compressed

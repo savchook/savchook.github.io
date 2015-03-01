@@ -1,0 +1,57 @@
+.book-header {
+  @extend %header;
+}
+
+.book-image {
+  @extend %thumb;
+  margin-right: $base-text-col-gap + $base-text-indent;
+  cursor: zoom-in;
+}
+
+.book-content {
+  overflow: auto;
+}
+
+.book-annotation {
+  margin-bottom: 1em;
+}
+
+.book-meta {
+  color: $brand-color;
+  margin-bottom: 1em;
+
+  dt {
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  dd {
+    display: inline;
+    &:after {
+      display: block;
+      content: "";
+    }
+  }
+}
+
+.book-buy {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.book-description {
+  margin-bottom: 1em;
+
+  p {
+    text-indent: #{$base-text-indent};
+  }
+}
+
+.book-excerpt {
+  li {
+    float: left;
+    display: inline;
+    margin-right: 2em;
+  }
+}
+

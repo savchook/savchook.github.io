@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign sorted = site.news | sort: "url" | reverse %}
+
+<ul>
+  {% for article in sorted %}
+    {% assign path = article.url | replace:'/index.html','' %}
+    <li>
+      <article class="news-i-wrapper">
+        <h1 class="news-i-header"> {{ article.title }}</h1>
+
+        <img class="news-i-image"
+          src="{{ path }}/svitlyna-mala.jpg"
+          data-jslghtbx="{{ path }}/svitlyna.jpg"
+          alt="{{ article.image.alt }}">
+
+        <div class="news-i-content">
+          {{ article.content | markdownify }}
+        </div>
+      </article>
+    </li>
+  {% endfor %}
+</ul>

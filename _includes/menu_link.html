@@ -1,0 +1,5 @@
+{% capture active_class %}
+  {% if page.path contains include.path %} active {% endif %}
+{% endcapture %}
+
+<a href="/{{ include.path }}" class="{{ active_class }}">{{ site.menu[include.path] }}</a>

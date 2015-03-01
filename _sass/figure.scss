@@ -1,0 +1,21 @@
+.figure-header {
+  @extend %header;
+}
+
+.figure-image {
+  @extend %thumb;
+  margin-right: $base-text-col-gap;
+}
+
+.figure-image_bordered {
+  border: 1px solid black;
+}
+
+.figure-content {
+  overflow: auto;
+
+  p {
+    text-align: justify;
+    text-indent: $base-text-indent;
+  }
+}

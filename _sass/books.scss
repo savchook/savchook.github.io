@@ -1,0 +1,27 @@
+.books-header {
+  @extend %header;
+}
+
+.books-i-wrapper {
+  @extend %clearfix;
+  margin-bottom: 4em;
+}
+
+.books-i-header {
+  font-size: 1.2em;
+  line-height: 1;
+  margin-bottom: 0.735em;
+}
+
+.books-i-image {
+  @extend %thumb;
+  margin-right: $base-text-col-gap + $base-text-indent;
+}
+
+.books-i-content {
+  overflow: auto;
+
+  p {
+    text-indent: $base-text-indent;
+  }
+}

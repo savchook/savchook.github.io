@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+{% assign path = page.url | replace:'/index.html','' %}
+
+<article itemscope itemtype="http://schema.org/Book" class="book-wrapper">
+  <h1 class="book-header">
+    <span itemprop="author">{{ page.author }}</span>
+    «<span itemprop="name">{{ page.name }}</span>»
+  </h1>
+
+  <img itemprop="image" class="book-image"
+    src="{{ path }}/obkladynka-mala.jpg"
+    data-jslghtbx="{{ path }}/obkladynka.jpg"
+    alt="Обкладинка книги «{{ page.name }}», автор — {{ page.author }}">
+
+  <div class="book-content">
+    <section class="book-annotation">
+      {{ page.annotation | markdownify }}
+    </section>
+
+    <section class="book-meta">
+      <dl>
+        {% if page.isbn %}
+          <dt>ISBN:</dt>
+          <dd itemprop="isbn">{{ page.isbn }}</dd>
+        {% endif %}
+
+        {% if page.category %}
+          <dt>Категорія:</dt>
+          <dd itemprop="genre">{{ page.category }}</dd>
+        {% endif %}
+
+        <dt>Серія:</dt>
+        <dd>{{ page.series }}</dd>
+
+        <dt>Рік випуску:</dt>
+        <dd itemprop="copyrightYear">{{ page.year }}</dd>
+
+        <dt>Обсяг:</dt>
+        <dd>
+          {% if page.number_of_pages and page.number_of_illustrations %}
+            <span itemprop="numberOfPages">{{ page.number_of_pages }}</span> с.,
+            {{ page.number_of_illustrations }} іл.
+          {% elsif page.number_of_pages %}
+            <span itemprop="numberOfPages">{{ page.number_of_pages }}</span> с.
+          {% else %}
+            {{ page.amount }}
+          {% endif %}
+        </dd>
+
+        <dt>Формат:</dt>
+        <dd>{{ page.format }}</dd>
+
+        {% if page.hardcover or page.softcover %}
+          <dt>Обкладинка:</dt>
+          {% if page.hardcover %}
+            <dd><link itemprop="bookFormat" href="http://schema.org/Hardcover"/>тверда</dd>
+          {% elsif page.softcover %}
+            <dd><link itemprop="bookFormat" href="http://schema.org/Paperback"/>м’яка</dd>
+          {% endif %}
+        {% endif %}
+
+        {% if page.price %}
+          <dt>Роздрібна ціна:</dt>
+          <dd itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <span itemprop="price">{{ page.price }}</span>
+            <span itemprop="priceCurrency" content="UAH">грн.</span>
+          </dd>
+        {% endif %}
+      </dl>
+    </section>
+
+    {% if page.price %}
+      <a class="book-buy" href="/buy-book">
+        {% if page.buy_link %}{{ page.buy_link }}{% else %}Придбати книгу{% endif %}
+      </a>
+    {% endif %}
+
+    <section itemprop="description" class="book-description">
+      {{ content }}
+    </section>
+
+    <ul class="book-excerpt">
+      {% unless page.no_zmist %}
+        <li>
+          <a href="{{ path }}/zmist.pdf">Титульна сторінка та зміст</a>
+        </li>
+      {% endunless %}
+
+      {% unless page.no_vybrane %}
+        <li>
+          <a href="{{ path }}/vybrane.pdf">Сторінки вибірково</a>
+        </li>
+      {% endunless %}
+    </ul>
+  </div>
+</article>

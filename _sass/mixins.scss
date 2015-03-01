@@ -1,0 +1,53 @@
+@mixin menu($padding, $gap: 0) {
+  border: 1px solid $brand-color;
+  height: #{$base-line-height}em;
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    float: left;
+    display: inline;
+    margin-left: #{$gap};
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+
+  li:last-child {
+    float: right;
+    margin-left: 0;
+  }
+
+  a {
+    display: block;
+    padding: 0 #{$padding};
+  }
+}
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+%header {
+  margin-left: #{($base-text-col-gap + $base-text-indent) / $base-h1}em;
+  margin-bottom: 2em;
+
+  &:before {
+    content: "";
+    float: left;
+    width: $base-thumb-width;
+    height: 2em;
+  }
+}
+
+%thumb {
+  float: left;
+  width: $base-thumb-width;
+}

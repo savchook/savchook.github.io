@@ -1,0 +1,46 @@
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+a.active {
+  color: white;
+  background-color: $brand-color;
+  &:focus, &:hover {
+    background-color: $brand-color;
+  }
+}
+
+a:focus, a:hover {
+  background-color: $focus-color;
+}
+
+h1 {
+  font-size: $base-h1;
+  font-family: $base-font-family;
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  border: 1px solid $brand-color;
+  border-width: 1px 0 0;
+  color: $brand-color;
+  font-size: 0.857em;
+  margin: 4em 0 2em 45em;
+  padding-top: 0.5em;
+}

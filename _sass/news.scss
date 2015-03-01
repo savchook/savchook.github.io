@@ -1,0 +1,23 @@
+.news-i-header {
+  @extend %header;
+  margin-bottom: 1em;
+}
+
+.news-i-wrapper {
+  @extend %clearfix;
+  margin-bottom: 4em;
+}
+
+.news-i-image {
+  @extend %thumb;
+  margin-right: $base-text-col-gap;
+  cursor: zoom-in;
+}
+
+.news-i-content {
+  overflow: auto;
+
+  p {
+    text-indent: $base-text-indent;
+  }
+}
