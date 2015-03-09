@@ -9,6 +9,8 @@ series: «Слобожанський світ». Випуск 5
 year: 2013
 number_of_pages: 96
 format: А5 (145х200 мм)
+paper: пухкий
+weight: 248
 hardcover: true
 price: 40
 annotation: |

@@ -10,6 +10,8 @@ year: 2011
 number_of_pages: 696
 number_of_illustrations: 702
 format: А4 (210х297 мм)
+paper: офсетний + крейдований
+weight: 2270
 hardcover: true
 price: 250
 annotation: |

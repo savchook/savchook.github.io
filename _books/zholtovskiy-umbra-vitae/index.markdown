@@ -10,6 +10,8 @@ year: 2013
 number_of_pages: 608
 number_of_illustrations: 353
 format: А4 (200х240 мм)
+paper: офсетний
+weight: 1354
 hardcover: true
 price: 120
 annotation: |

@@ -10,6 +10,8 @@ year: 2014
 number_of_pages: 450
 number_of_illustrations: 273
 format: А4 (200х260 мм)
+paper: крейдований
+weight: 1772
 hardcover: true
 price: 190
 annotation: |

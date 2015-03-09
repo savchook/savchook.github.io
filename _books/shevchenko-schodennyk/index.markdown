@@ -10,6 +10,8 @@ year: 2014
 number_of_pages: 448
 number_of_illustrations: 52
 format: В5 (120х165 мм)
+paper: пухкий
+weight: 354
 hardcover: true
 price: 60
 annotation: |

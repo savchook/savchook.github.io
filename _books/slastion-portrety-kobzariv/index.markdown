@@ -7,6 +7,8 @@ series: Поза серіями
 year: 2013
 amount: 12 листівок
 format: А6 (100х145 мм)
+paper: сувенірний картон
+weight: 54
 price: 40
 annotation: |
   **Сластіон Опанас**

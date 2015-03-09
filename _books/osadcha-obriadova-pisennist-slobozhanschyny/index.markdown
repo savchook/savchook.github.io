@@ -9,6 +9,8 @@ series: «Слобожанський світ». Випуск 2
 year: 2012
 number_of_pages: 184
 format: А5 (145х200 мм)
+paper: офсетний
+weight: 228
 softcover: true
 price: 40
 annotation: |

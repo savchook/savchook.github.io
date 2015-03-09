@@ -10,6 +10,8 @@ year: 2012
 number_of_pages: 534
 number_of_illustrations: 128
 format: А4 (210х297 мм)
+paper: офсетний + крейдований
+weight: 1620
 hardcover: true
 price: 190
 annotation: |

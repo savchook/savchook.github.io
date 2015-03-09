@@ -10,6 +10,8 @@ year: 2014
 number_of_pages: 368
 number_of_illustrations: 109
 format: B5 (170х240 мм)
+paper: офсетний + крейдований
+weight: 766
 hardcover: true
 price: 60
 annotation: |
