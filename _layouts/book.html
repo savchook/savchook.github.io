@@ -10,10 +10,13 @@ layout: default
     «<span itemprop="name">{{ page.name }}</span>»
   </h1>
 
-  <img itemprop="image" class="book-image"
-    src="{{ path }}/obkladynka-mala.jpg"
-    data-jslghtbx="{{ path }}/obkladynka.jpg"
-    alt="Обкладинка книги «{{ page.name }}», автор — {{ page.author }}">
+  <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+    <img itemprop="thumbnailUrl" class="book-image"
+      src="{{ site.url }}{{ path }}/obkladynka-mala.jpg"
+      data-jslghtbx="{{ path }}/obkladynka.jpg"
+      alt="Обкладинка книги «{{ page.name }}», автор — {{ page.author }}">
+    <meta itemprop="contentUrl" content="{{ site.url }}{{ path }}/obkladynka.jpg" />
+  </span>
 
   <div class="book-content">
     <section class="book-annotation">
