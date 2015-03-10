@@ -1,0 +1,36 @@
+.notfound-wrapper {
+  text-align: center;
+  margin-top: 15em;
+  font-size: 1.2em;
+
+  p {
+    margin: 1em 0;
+  }
+}
+
+.notfound-header {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+$notfound-count-size: 1.4em;
+
+.notfound-books {
+  font-size: $notfound-count-size;
+}
+
+.notfound-404 {
+  font-size: $notfound-count-size;
+  color: $brand-color;
+  cursor: help;
+
+  sup {
+    font-size: 0.65em;
+    top: -0.6em;
+  }
+}
+
+.notfound-book_hidden {
+  display: none;
+  visibility: hidden;
+}

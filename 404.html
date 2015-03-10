@@ -1,0 +1,43 @@
+---
+---
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    {% include head.html %}
+    <title>Такої сторінки немає</title>
+  </head>
+  <body>
+    <div class="wrapper notfound-wrapper">
+      <h1 class="notfound-header">На жаль, ми не знайшли сторінки за вказаною адресою</h1>
+
+      {% assign books_total_wo_index = site.books | size | minus: 1 %}
+      <p>
+        Ви шукали книжку? У нас надруковано вже <span class="notfound-books">{{ books_total_wo_index }}</span> із
+        <span class="notfound-404"
+          title="Наша скромна мета. Зрештою, ми мали десь вказати це число (404 - not found)">404<sup>*</sup>
+        </span> книжок.
+      </p>
+
+      <p>
+        Наприклад, така:
+      </p>
+
+      <div class="notfound-books">
+        {% for book in site.books %}
+          {% if book.name %}
+            {% assign path = book.url | replace:'index.html','' %}
+            <a href="{{ path }}" class="notfound-book_hidden">
+              <img src="{{ path }}/obkladynka-mala.jpg"/>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <script>
+      var books = document.querySelectorAll(".notfound-book_hidden");
+      var randomIndex = Math.floor(books.length * Math.random());
+      books[randomIndex].removeAttribute("class")
+    </script>
+  </body>
+</html>
