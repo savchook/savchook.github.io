@@ -2,8 +2,9 @@
 layout: figure
 title: Як придбати?
 image:
-  file: press.jpg
-  alt: Печатний прес
+  file: stanok.jpg
+  alt: Друкарський верстат
+  hide_borders: true
 ---
 
 Для того, щоб придбати книгу за видавничими цінами через нашу internet-книгарню, необхідно зателефонувати
