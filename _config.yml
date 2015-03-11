@@ -1,4 +1,6 @@
 # Site settings
+gems:
+  - jekyll-sitemap
 url: http://savchook.com
 default_lang: uk
 title: Видавець Савчук О. О.
