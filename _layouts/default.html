@@ -3,16 +3,6 @@
   <head>
     {% include head.html %}
 
-    <title>
-      {% if page.author %}
-        {{ page.author }} «{{ page.name }}» | {{ site.title }}
-      {% elsif page.title %}
-        {{ page.title }} | {{ site.title }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </title>
-
     <link rel="canonical" href="{{ page.url | replace:'index','' | replace:'.html','' | prepend: site.url }}">
   </head>
 
