@@ -94,13 +94,13 @@ layout: default
     <ul class="book-excerpt">
       {% unless page.no_zmist %}
         <li>
-          <a href="{{ path }}/zmist.pdf">Титульна сторінка та зміст</a>
+          <a class="book-pdflink" href="{{ path }}/zmist.pdf">Титульна сторінка та зміст</a>
         </li>
       {% endunless %}
 
       {% unless page.no_vybrane %}
         <li>
-          <a href="{{ path }}/vybrane.pdf">Сторінки вибірково</a>
+          <a class="book-pdflink" href="{{ path }}/vybrane.pdf">Сторінки вибірково</a>
         </li>
       {% endunless %}
     </ul>

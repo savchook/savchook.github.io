@@ -55,3 +55,14 @@
   }
 }
 
+.book-pdflink {
+  &:before {
+    content: "";
+    background-image: url("/images/pdf-icon.gif");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5em;
+  }
+}
+
