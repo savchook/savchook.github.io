@@ -13,7 +13,7 @@ format: B5 (170х240 мм)
 paper: офсетний + крейдований
 weight: 766
 hardcover: true
-price: 60
+price: 70
 annotation: |
   **Мішалов Віктор**
 
