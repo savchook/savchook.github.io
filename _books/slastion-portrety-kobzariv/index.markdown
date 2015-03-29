@@ -9,7 +9,7 @@ amount: 12 листівок
 format: А6 (100х145 мм)
 paper: сувенірний картон
 weight: 54
-price: 40
+price: 20
 annotation: |
   **Сластіон Опанас**
 
