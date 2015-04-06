@@ -3,7 +3,7 @@ layout: book
 position: 70
 author: Опанас Сластіон
 name: Портрети українських кобзарів
-series: Поза серіями
+series: поза серіями
 year: 2013
 amount: 12 листівок
 format: А6 (100х145 мм)
