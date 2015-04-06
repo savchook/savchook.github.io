@@ -7,7 +7,7 @@ isbn: 978-966-2562-53-8
 category: наукова література
 series: «Слобожанський світ». Випуск 8
 year: 2014
-number_of_pages: 864
+number_of_pages: 896
 number_of_illustrations: 1033
 format: А4 (220х290 мм)
 paper: офсетний
