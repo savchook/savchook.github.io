@@ -5,7 +5,7 @@ author: Порфирій Демуцький
 name: Ліра і її мотиви
 isbn: 978-966-2562-18-7
 category: наукова література
-series: Поза серіями
+series: поза серіями
 year: 2012
 number_of_pages: 310
 number_of_illustrations: 39
