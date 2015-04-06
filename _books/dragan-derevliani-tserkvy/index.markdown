@@ -5,7 +5,7 @@ author: Михайло Драґан
 name: Українські деревляні церкви
 isbn: 978-966-2562-55-2
 category: наукова література
-series: Поза серіями
+series: поза серіями
 year: 2014
 number_of_pages: 450
 number_of_illustrations: 273
