@@ -5,7 +5,7 @@ author: Людмила Соколюк
 name: Михайло Бойчук та його школа
 isbn: 978-966-2562-50-7
 category: наукова література
-series: Поза серіями
+series: поза серіями
 year: 2014
 number_of_pages: 386
 number_of_illustrations: 488
