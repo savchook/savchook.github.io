@@ -1,4 +1,4 @@
-﻿---
+---
 layout: book
 position: 30
 author: Павло Жолтовський

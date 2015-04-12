@@ -1,4 +1,4 @@
-﻿---
+---
 layout: book
 position: 110
 author: Гнат Хоткевич
