@@ -1,4 +1,4 @@
-﻿---
+---
 layout: book
 position: 120
 author: Юрій Шевельов

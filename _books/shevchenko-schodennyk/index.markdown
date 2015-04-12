@@ -1,4 +1,4 @@
-﻿---
+---
 layout: book
 position: 130
 author: Тарас Шевченко
