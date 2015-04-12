@@ -1,10 +1,10 @@
----
+﻿---
 layout: book
 position: 30
 author: Павло Жолтовський
 name: UMBRA VITAE
 isbn: 978-966-2562-45-3
-category: Мемуаристика, наукова література
+category: мемуаристика, наукова література
 series: «Слобожанський світ». Випуск 6
 year: 2013
 number_of_pages: 608

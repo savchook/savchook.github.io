@@ -1,10 +1,10 @@
----
+﻿---
 layout: book
 position: 120
 author: Юрій Шевельов
 name: Триптих про призначення України
 isbn: 978-966-2562-43-9
-category: Есеїстика
+category: есеїстика
 series: «Слобожанський світ». Випуск 5
 year: 2013
 number_of_pages: 96

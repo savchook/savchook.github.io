@@ -1,10 +1,10 @@
----
+﻿---
 layout: book
 position: 130
 author: Тарас Шевченко
 name: Щоденник
 isbn: 978-966-2562-56-9
-category: Мемуаристика
+category: мемуаристика
 series: поза серіями
 year: 2014
 number_of_pages: 448
