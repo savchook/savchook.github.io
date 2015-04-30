@@ -11,7 +11,7 @@ number_of_pages: 480
 number_of_illustrations: 21
 format: В6 (120х165 мм)
 paper: офсетний
-weight: 560
+weight: 416
 hardcover: true
 price: 70
 annotation: |
