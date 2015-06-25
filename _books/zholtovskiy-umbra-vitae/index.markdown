@@ -13,7 +13,7 @@ format: А4 (200х240 мм)
 paper: офсетний
 weight: 1354
 hardcover: true
-price: 120
+price: 130
 annotation: |
   **Жолтовський Павло**
 
