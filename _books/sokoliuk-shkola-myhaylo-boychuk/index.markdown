@@ -13,7 +13,7 @@ format: А4 (200х260 мм)
 paper: крейдований
 weight: 1366
 hardcover: true
-price: 220
+price: 250
 annotation: |
   **Соколюк Людмила**
 
