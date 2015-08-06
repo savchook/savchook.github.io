@@ -11,7 +11,7 @@ number_of_pages: 386
 number_of_illustrations: 488
 format: А4 (200х260 мм)
 paper: крейдований
-weight: 1366
+weight: 1544
 hardcover: true
 price: 250
 annotation: |
