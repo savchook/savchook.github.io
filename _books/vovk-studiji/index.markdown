@@ -4,8 +4,8 @@ position: 3
 author: Федір Вовк
 name: Студії з української етнографії та антропології. Нова редакція 
 isbn: 978-966-2562-64-4
-category: Наукова література
-series: Поза серіями
+category: наукова література
+series: поза серіями
 year: 2015
 number_of_pages: 464
 number_of_illustrations: 199
