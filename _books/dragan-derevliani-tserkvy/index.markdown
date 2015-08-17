@@ -13,7 +13,7 @@ format: А4 (200х260 мм)
 paper: крейдований
 weight: 1772
 hardcover: true
-price: 250
+price: 240
 annotation: |
   **Драґан Михайло**
 
