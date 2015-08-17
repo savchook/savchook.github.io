@@ -13,7 +13,7 @@ format: А4 (210х297 мм)
 paper: офсетний + крейдований
 weight: 1620
 hardcover: true
-price: 250
+price: 220
 annotation: |
   **Мартинович Порфирій**
 
