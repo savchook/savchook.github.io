@@ -21,7 +21,7 @@ title: Книжкові аксесуари
           <h1 class="accessory-i-header"> {{ accessory.name }}</h1>
 
           <div class="accessory-i-content">
-            <dl>
+            <dl class=accessory-i-meta>
               <dt>Формат:</dt>
               <dd>{{ accessory.format }}</dd>
 
@@ -36,6 +36,8 @@ title: Книжкові аксесуари
               <dt>Роздрібна ціна:</dt>
               <dd>{{ accessory.price }} грн.</dd>
             </dl>
+
+            {{ accessory.content | markdownify }}
           </div>
         </article>
       </li>

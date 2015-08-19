@@ -20,7 +20,6 @@
 }
 
 .accessory-i-content {
-  color: $brand-color;
   overflow: auto;
 
   dt {
@@ -35,4 +34,9 @@
       content: "";
     }
   }
+}
+
+.accessory-i-meta {
+  color: $brand-color;
+  margin-bottom: 1em;
 }
