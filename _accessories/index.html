@@ -1,0 +1,44 @@
+---
+layout: default
+title: Книжкові аксесуари
+---
+
+<h1 class="accessories-header">Книжкові аксесуари</h1>
+
+{% assign accessories = site.accessories | sort: "position" %}
+
+<ul>
+  {% for accessory in accessories %}
+    {% assign path = accessory.url | replace:'/index.html','' %}
+    {% if accessory.name %}
+      <li>
+        <article class="accessory-i-wrapper">
+          <img class="accessory-i-image"
+            src="{{ path }}/svitlyna-mala.jpg"
+            alt="{{ accessory.name }}"
+            data-jslghtbx="{{ path }}/svitlyna.jpg" >
+
+          <h1 class="accessory-i-header"> {{ accessory.name }}</h1>
+
+          <div class="accessory-i-content">
+            <dl>
+              <dt>Формат:</dt>
+              <dd>{{ accessory.format }}</dd>
+
+              <dt>Папір:</dt>
+              <dd>{{ accessory.paper }}</dd>
+
+              {% if accessory.weight %}
+                <dt>Вага:</dt>
+                <dd>{{ accessory.weight }} г.</dd>
+              {% endif %}
+
+              <dt>Роздрібна ціна:</dt>
+              <dd>{{ accessory.price }} грн.</dd>
+            </dl>
+          </div>
+        </article>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

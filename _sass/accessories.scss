@@ -1,0 +1,38 @@
+.accessories-header {
+  @extend %header;
+}
+
+.accessory-i-wrapper {
+  @extend %clearfix;
+  margin-bottom: 4em;
+}
+
+.accessory-i-header {
+  font-size: 1.2em;
+  line-height: 1;
+  margin-bottom: 2em;
+}
+
+.accessory-i-image {
+  @extend %thumb;
+  margin-right: $base-text-col-gap + $base-text-indent;
+  cursor: zoom-in;
+}
+
+.accessory-i-content {
+  color: $brand-color;
+  overflow: auto;
+
+  dt {
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  dd {
+    display: inline;
+    &:after {
+      display: block;
+      content: "";
+    }
+  }
+}

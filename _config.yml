@@ -8,12 +8,15 @@ menu:
   about-publishers: Про видавництво
   how-to-publish: Як видати книгу?
   books: Книгарня
+  accessories: Аксесуари
   buy-book: Як придбати?
   contacts: Контакти
 collections:
   news:
     output: false
   books:
+    output: true
+  accessories:
     output: true
 
 # Build settings
