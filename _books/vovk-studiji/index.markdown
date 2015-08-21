@@ -11,7 +11,7 @@ number_of_pages: 464
 number_of_illustrations: 199
 format: B5 (170х240 мм)
 paper: офсетний + крейдований
-weight: 966
+weight: 922
 hardcover: true
 price: 130
 annotation: |
