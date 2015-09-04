@@ -13,7 +13,7 @@ format: В5 (240х170 мм)
 paper: офсетний
 weight: 944
 hardcover: true
-price: 120
+price: 130
 annotation: |
   **Хоткевич Гнат**
 
