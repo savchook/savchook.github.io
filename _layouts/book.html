@@ -88,7 +88,11 @@ layout: default
     {% endif %}
 
     <section itemprop="description" class="book-description">
-      {{ content }}
+      {% if page.detailed_content %}
+        {{ page.detailed_content | markdownify }}
+      {% else %}
+        {{ content }}
+      {% endif %}
     </section>
 
     <ul class="book-excerpt">
