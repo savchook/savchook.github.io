@@ -108,5 +108,12 @@ layout: default
         </li>
       {% endunless %}
     </ul>
+
+    {% if page.zmist %}
+    <section class="book-table-of-contents">
+      <h2 class="book-table-of-contents-header">Зміст</h2>
+      {{ page.zmist | markdownify }}
+    </section>
+    {% endif %}
   </div>
 </article>

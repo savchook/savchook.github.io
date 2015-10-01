@@ -48,6 +48,8 @@
 }
 
 .book-excerpt {
+  @extend %clearfix;
+  margin-bottom: 1em;
   li {
     float: left;
     display: inline;
@@ -64,5 +66,38 @@
     height: 16px;
     margin-right: 0.5em;
   }
+}
+
+.book-table-of-contents {
+  ul > li {
+    margin-left: 1em;
+  }
+
+  ol > li {
+    list-style-type: upper-roman;
+    margin-left: 1em;
+    margin-bottom: 0.3em;
+    list-style-position: inside;
+
+    ol > li {
+      list-style-type: upper-latin;
+
+      ol > li {
+        list-style-type: decimal;
+
+        ol > li {
+          list-style-type: lower-latin;
+
+          ol > li {
+            list-style-type: decimal;
+          }
+        }
+      }
+    }
+  }
+}
+
+.book-table-of-contents-header {
+  margin: 1em 0 1em 0;
 }
 
