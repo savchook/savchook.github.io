@@ -13,7 +13,7 @@ format: B5 (170х240 мм)
 paper: офсетний + крейдований
 weight: 922
 hardcover: true
-price: 130
+price: 140
 annotation: |
   **Вовк Федір**
 
