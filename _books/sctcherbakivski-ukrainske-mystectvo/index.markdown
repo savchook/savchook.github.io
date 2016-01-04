@@ -13,7 +13,7 @@ format: А4 (200х260 мм)
 paper: крейдований
 weight: 1848
 hardcover: true
-price: 250
+price: 270
 annotation: |
   **Щербаківські Вадим і Данило**
 
