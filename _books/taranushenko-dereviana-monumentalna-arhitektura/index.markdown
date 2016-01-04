@@ -13,7 +13,7 @@ format: А4 (220х290 мм)
 paper: офсетний
 weight: 2552
 hardcover: true
-price: 390
+price: 420
 annotation: |
   **Таранушенко Стефан**
 
