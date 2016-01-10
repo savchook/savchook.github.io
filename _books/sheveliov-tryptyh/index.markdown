@@ -12,7 +12,7 @@ format: А5 (145х200 мм)
 paper: пухкий
 weight: 248
 hardcover: true
-price: 40
+price:
 annotation: |
   **Шевельов Юрій**
 
