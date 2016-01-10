@@ -74,6 +74,7 @@ layout: default
         {% if page.price %}
           <dt>Роздрібна ціна:</dt>
           <dd itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <meta itemprop="availability" content="http://schema.org/InStock">
             <span itemprop="price">{{ page.price }}</span>
             <span itemprop="priceCurrency" content="UAH">грн.</span>
           </dd>
@@ -85,6 +86,10 @@ layout: default
       <a class="book-buy" href="/buy-book">
         {% if page.buy_link %}{{ page.buy_link }}{% else %}Придбати книгу{% endif %}
       </a>
+    {% else %}
+      <div class="book-out-of-stock" itemprop="offers" itemtype="http://schema.org/Offer">
+        <link itemprop="availability" href="http://schema.org/SoldOut"/>Немає в наявності
+      </div>
     {% endif %}
 
     <section itemprop="description" class="book-description">
