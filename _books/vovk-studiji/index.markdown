@@ -7,6 +7,7 @@ isbn: 978-966-2562-64-4
 category: наукова література
 series: поза серіями
 year: 2015
+number_of_copies: 300
 number_of_pages: 464
 number_of_illustrations: 199
 format: B5 (170х240 мм)
