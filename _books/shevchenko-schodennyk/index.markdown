@@ -7,6 +7,7 @@ isbn: 978-966-2562-56-9
 category: мемуаристика
 series: поза серіями
 year: 2014
+number_of_copies: 500
 number_of_pages: 448
 number_of_illustrations: 52
 format: В6 (120х165 мм)
