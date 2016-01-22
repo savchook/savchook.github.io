@@ -7,6 +7,7 @@ isbn: 978-966-2562-45-3
 category: мемуаристика, наукова література
 series: «Слобожанський світ». Випуск 6
 year: 2013
+number_of_copies: 300
 number_of_pages: 608
 number_of_illustrations: 353
 format: А4 (200х240 мм)
