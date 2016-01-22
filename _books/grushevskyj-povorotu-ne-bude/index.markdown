@@ -7,6 +7,7 @@ isbn: 978-966-2562-36-7
 category: публіцистика
 series: поза серіями
 year: 2015
+number_of_copies: 500
 number_of_pages: 480
 number_of_illustrations: 21
 format: В6 (120х165 мм)
