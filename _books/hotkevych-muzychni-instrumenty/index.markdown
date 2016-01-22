@@ -7,6 +7,7 @@ isbn: 978-966-2562-29-3
 category: наукова література
 series: «Слобожанський світ». Випуск 4
 year: 2012
+number_of_copies: 500
 number_of_pages: 512
 number_of_illustrations: 202
 format: В5 (240х170 мм)
