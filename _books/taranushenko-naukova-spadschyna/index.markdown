@@ -7,6 +7,7 @@ isbn: 978-966-2562-02-6
 category: наукова література
 series: «Слобожанський світ». Випуск 1
 year: 2011
+number_of_copies: 500
 number_of_pages: 696
 number_of_illustrations: 702
 format: А4 (210х297 мм)
