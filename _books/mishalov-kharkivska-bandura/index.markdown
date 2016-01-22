@@ -7,6 +7,7 @@ isbn: 978–966–2562–47–7
 category: наукова література
 series: «Слобожанський світ». Випуск 7
 year: 2014
+number_of_copies: 500
 number_of_pages: 368
 number_of_illustrations: 109
 format: B5 (170х240 мм)
