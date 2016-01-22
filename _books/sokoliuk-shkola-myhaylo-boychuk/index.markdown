@@ -7,6 +7,7 @@ isbn: 978-966-2562-50-7
 category: наукова література
 series: поза серіями
 year: 2014
+number_of_copies: 300
 number_of_pages: 386
 number_of_illustrations: 488
 format: А4 (200х260 мм)
