@@ -7,6 +7,7 @@ isbn: 978-966-2562-18-7
 category: наукова література
 series: поза серіями
 year: 2012
+number_of_copies: 200
 number_of_pages: 310
 number_of_illustrations: 39
 format: А4 (210х297 мм)
