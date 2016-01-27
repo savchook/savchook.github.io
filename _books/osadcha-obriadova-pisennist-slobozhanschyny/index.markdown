@@ -13,7 +13,7 @@ format: А5 (145х200 мм)
 paper: офсетний
 weight: 228
 softcover: true
-price: 40
+price:
 annotation: |
   **Осадча Віра**
 
