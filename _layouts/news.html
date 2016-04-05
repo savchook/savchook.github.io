@@ -4,12 +4,6 @@ layout: default
 
 {% assign sorted = site.news | sort: "url" | reverse %}
 
-<div class="uartlib">
-  <a href="http://uartlib.org/shop/">
-    <img src="/images/uartlib.png"/>
-  </a>
-</div>
-
 <ul>
   {% for article in sorted %}
     {% assign path = article.url | replace:'/index.html','' %}
