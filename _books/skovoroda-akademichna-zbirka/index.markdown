@@ -9,7 +9,7 @@ series: поза серіями
 year: 2016
 number_of_copies: 300
 number_of_pages: 1400
-number_of_illustrations: 12
+number_of_illustrations:
 format: В5 (165х230 мм)
 paper: офсетний
 weight: 2800
