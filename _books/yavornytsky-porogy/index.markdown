@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 150
+group: 3
+position: 10
 author: Дмитро Яворницький
 name: Дніпрові пороги
 isbn: 978-966-2562-4-3

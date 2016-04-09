@@ -6,27 +6,36 @@ layout: default
 
 <h1 class="books-header">{{ page.title }}</h1>
 
-<ul>
-  {% for book in sorted %}
-    {%comment%} exclude actual "index.html" from collection {%endcomment%}
-    {% if book.name %}
-      {% assign path = book.url | replace:'/index.html','' %}
-      <li>
-        <article class="books-i-wrapper">
-          <a href="{{ path }}">
-            <img class="books-i-image" src="{{ path }}/obkladynka-mala.jpg"
-            alt="Обкладинка книги «{{ book.name }}», автор — {{ book.author }}">
-          </a>
+{% for group in site.groups %}
+  {% assign group_index = forloop.index %}
+  <section>
+    <h1 id="group-{{ group_index }}" class="books-header">Розділ {{ group_index }}. {{ group }}</h1>
+    <ul>
+      {% for book in sorted %}
+        {% if group_index == book.group %}
+          {%comment%} exclude actual "index.html" from collection {%endcomment%}
+          {% if book.name %}
+            {% assign path = book.url | replace:'/index.html','' %}
+            <li>
+              <article class="books-i-wrapper">
+                <a href="{{ path }}">
+                  <img class="books-i-image" src="{{ path }}/obkladynka-mala.jpg"
+                  alt="Обкладинка книги «{{ book.name }}», автор — {{ book.author }}">
+                </a>
 
-          <h1 class="books-i-header">
-            <a href="{{ path }}">{{ book.author }} «{{ book.name }}»</a>
-          </h1>
+                <h1 class="books-i-header">
+                  <a href="{{ path }}">{{ book.author }} «{{ book.name }}»</a>
+                </h1>
 
-          <div class="books-i-content">
-            {{ book.content | markdownify }}
-          </div>
-        </article>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+                <div class="books-i-content">
+                  {{ book.content | markdownify }}
+                </div>
+              </article>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+

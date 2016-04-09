@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 60
+group: 3
+position: 40
 author: Віра Осадча
 name: Обрядова пісенність Слобожанщини
 isbn: 978-966-2562-04-0

@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 20
+group: 2
+position: 30
 author: Михайло Драґан
 name: Українські деревляні церкви
 isbn: 978-966-2562-55-2

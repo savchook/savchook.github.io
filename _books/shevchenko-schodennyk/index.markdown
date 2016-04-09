@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 130
+group: 1
+position: 30
 author: Тарас Шевченко
 name: Щоденник
 isbn: 978-966-2562-56-9

@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 3
+group: 3
+position: 20
 author: Федір Вовк
 name: Студії з української етнографії та антропології
 isbn: 978-966-2562-64-4

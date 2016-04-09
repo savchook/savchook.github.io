@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 50
+group: 4
+position: 30
 author: Віктор Мішалов
 name: Харківська бандура
 isbn: 978–966–2562–47–7

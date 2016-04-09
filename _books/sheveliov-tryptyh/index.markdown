@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 120
+group: 1
+position: 40
 author: Юрій Шевельов
 name: Триптих про призначення України
 isbn: 978-966-2562-43-9

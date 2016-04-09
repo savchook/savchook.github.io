@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 30
+group: 2
+position: 50
 author: Павло Жолтовський
 name: UMBRA VITAE
 isbn: 978-966-2562-45-3

@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 110
+group: 4
+position: 10
 author: Гнат Хоткевич
 name: Музичні інструменти українського народу
 isbn: 978-966-2562-29-3

@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 40
+group: 3
+position: 30
 author: Порфирій Мартинович
 name: Українські записи
 isbn: 978–966–2562–19–4

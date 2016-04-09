@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 80
+group: 2
+position: 40
 author: Людмила Соколюк
 name: Михайло Бойчук та його школа
 isbn: 978-966-2562-50-7

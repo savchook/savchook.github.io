@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 5
+group: 1
+position: 20
 author: Михайло Грушевський
 name: Повороту не буде! 
 isbn: 978-966-2562-36-7

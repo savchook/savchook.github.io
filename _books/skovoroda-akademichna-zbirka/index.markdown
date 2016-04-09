@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 65
+group: 1
+position: 10
 author: Григорій Сковорода
 name: Повна академічна збірка творів 
 isbn: 978-966-2562-73-6

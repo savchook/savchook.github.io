@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 10
+group: 4
+position: 20
 author: Порфирій Демуцький
 name: Ліра і її мотиви
 isbn: 978-966-2562-18-7

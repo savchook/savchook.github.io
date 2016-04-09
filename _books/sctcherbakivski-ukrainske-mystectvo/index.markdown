@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 137
+group: 2
+position: 10
 author: Вадим і Данило Щербаківські
 name: Українське мистецтво
 isbn: 978-966-2562-67-5

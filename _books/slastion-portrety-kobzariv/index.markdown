@@ -1,6 +1,7 @@
 ---
 layout: book
-position: 70
+group: 4
+position: 40
 author: Опанас Сластіон
 name: Портрети українських кобзарів
 series: поза серіями
