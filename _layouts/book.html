@@ -90,7 +90,9 @@ layout: default
         {% if page.buy_link %}{{ page.buy_link }}{% else %}Придбати книгу{% endif %}
       </a>
     {% else %}
-      <div class="book-out-of-stock" itemprop="offers" itemtype="http://schema.org/Offer">
+      <div class="book-out-of-stock" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <meta itemprop="price" content="0">
+        <meta itemprop="priceCurrency" content="UAH">
         <link itemprop="availability" href="http://schema.org/SoldOut"/>Немає в наявності
       </div>
     {% endif %}
