@@ -13,7 +13,7 @@ number_of_pages: 194
 number_of_illustrations: 119
 format: А4 (215х290 мм)
 paper: дизайнерський
-weight: 1000
+weight: 995
 hardcover: true
 price: 220
 annotation: |
