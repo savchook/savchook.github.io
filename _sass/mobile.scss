@@ -1,0 +1,61 @@
+@media only screen and (max-width: 767px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .wrapper {
+    width: auto;
+  }
+
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .menu-wrapper {
+    margin-bottom: 3em;
+  }
+
+  .menu-pages {
+    height: auto;
+
+    li {
+      margin-left: 0;
+      float: none;
+      display:block;
+
+      &:last-child {
+        float: none;
+      }
+    }
+
+    a {
+      padding: 0.5em 1em;
+    }
+  }
+
+  .figure-header,
+  .books-header,
+  .book-header,
+  .news-i-header,
+  .accessories-header {
+    margin-left: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .figure-image,
+  .books-i-image,
+  .book-image,
+  .news-i-image,
+  .accessory-i-image {
+    float: none;
+  }
+
+  footer {
+    margin: 0;
+  }
+}
