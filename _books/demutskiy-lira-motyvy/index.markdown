@@ -15,7 +15,7 @@ format: А4 (210х297 мм)
 paper: офсетний + крейдований
 weight: 1020
 hardcover: true
-price: 150
+price: 170
 annotation: |
   **Демуцький Порфирій**
 
