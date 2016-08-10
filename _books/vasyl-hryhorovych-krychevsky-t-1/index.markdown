@@ -2,7 +2,7 @@
 layout: book
 group: 2
 position: 5
-author: &nbsp;
+author: Василь
 name: Василь Григорович Кричевський. Хрестоматія. Т. І. 1891–1943 рр. 
 isbn: 978-966-2562-70-5
 category: мистецтвознавство
