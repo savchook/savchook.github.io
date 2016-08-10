@@ -2,10 +2,10 @@
 layout: book
 group: 2
 position: 5
-author: rt
+author:
 name: Василь Григорович Кричевський. Хрестоматія. Том І. 1891–1943 рр. 
 isbn: 978-966-2562-70-5
-category: наукова література
+category: мистецтвознавство
 series: «Слобожанський світ». Випуск 10
 year: 2016
 number_of_copies: 100
